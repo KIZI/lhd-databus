@@ -18,13 +18,13 @@
 
     <properties>
         <databus.packageDirectory>
-            ${session.executionRootDirectory}/target/databus/repo/${project.groupId}/${project.artifactId}
+            /var/www/boa.lmcloud.vse.cz/databus/${project.artifactId}/${project.version}
         </databus.packageDirectory>
         <databus.downloadUrlPath>
-            http://ner.vse.cz/databus/${project.groupId}/${project.artifactId}/${project.version}/
+            https://boa.lmcloud.vse.cz/databus/${project.artifactId}/${project.version}/
         </databus.downloadUrlPath>
         <databus.publisher>https://propi.github.io/webid.ttl#this</databus.publisher>
-        <databus.pkcs12File>C:\Users\propan\Documents\.ssh\webid-certs\certificate_propan.pfx</databus.pkcs12File>
+        <databus.pkcs12File>/home/qzemv01/.ssh/certificate_propan.pfx</databus.pkcs12File>
         <databus.license>http://purl.oclc.org/NET/rdflicense/cc-by3.0</databus.license>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <databus.documentation></databus.documentation>
