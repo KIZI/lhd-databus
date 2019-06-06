@@ -18,7 +18,7 @@
 
     <properties>
         <databus.packageDirectory>
-            /var/www/boa.lmcloud.vse.cz/databus/${project.artifactId}/${project.version}
+            /var/www/boa.lmcloud.vse.cz/databus/${project.artifactId}
         </databus.packageDirectory>
         <databus.downloadUrlPath>
             https://boa.lmcloud.vse.cz/databus/${project.artifactId}/${project.version}/
